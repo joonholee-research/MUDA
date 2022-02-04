@@ -1,3 +1,3 @@
 # MUDA
-- unsupervised domain adaptation based on the predictive uncertainty of models <br>
-- best working under PyTorch 1.4
+- Sample implementation for my paper <Unsupervised Domain Adaptation Based on the Predictive Uncertainty of Models> <br>
+- PyTorch 1.4 required
