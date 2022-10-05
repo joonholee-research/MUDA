@@ -1,0 +1,25 @@
+# python svhn2mnist.py
+available cuda devices: range(0, 1)
+currently selected device: 0
+
+Initial accuracy : source = 0.9233, target = 0.7038
+source model path = model/svhn_source_ckpt.pth
+
+initialized with random seed = 2022
+100%|██████████| 11718/11718 [1:06:06<00:00,  5.11it/s, accu=[S]0.7028 [T]0.9910 (*0.9926 @9660), loss=[Ls]0.0375 [Lu]0.0319 (LR=0.000200)]
+Training completed (66m 6s) Max target accuracy = 0.9926 @9660
+Adapted accuracy : source = 0.6963, target = 0.9911
+
+initialized with random seed = 2023
+100%|██████████| 11718/11718 [1:06:24<00:00,  5.12it/s, accu=[S]0.7376 [T]0.9913 (*0.9923 @10320), loss=[Ls]0.0679 [Lu]0.0368 (LR=0.000200)]
+Training completed (66m 25s) Max target accuracy = 0.9923 @10320
+Adapted accuracy : source = 0.7211, target = 0.9913
+
+initialized with random seed = 2024
+100%|██████████| 11718/11718 [1:06:16<00:00,  5.09it/s, accu=[S]0.7329 [T]0.9908 (*0.9913 @10800), loss=[Ls]0.0501 [Lu]0.0350 (LR=0.000200)]
+Training completed (66m 17s) Max target accuracy = 0.9913 @10800
+Adapted accuracy : source = 0.7745, target = 0.9914
+
+-------------------------------------------------------------------------------------------------
+[S] 0.7244 +- 0.0154 [T] 0.9910 +- 0.0002 (max) 0.9921 @ iteration 10182
+-------------------------------------------------------------------------------------------------
