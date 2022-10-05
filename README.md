@@ -1,3 +1,5 @@
 # MUDA
-- Sample implementation for Unsupervised Domain Adaptation Based on the Predictive Uncertainty of Models <br>
-- PyTorch 1.4 required
+- This repository contains sample implementation for Unsupervised Domain Adaptation Based on the Predictive Uncertainty of Models. (The paper link will be updated soon) <br>
+- Requirement
+--python 3.6+
+--pytorch 1.8+
